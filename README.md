@@ -7,6 +7,6 @@ so that it can be processed by e.g. ImageSharp
 Current state is WorkInProgress
 
 # TODO
-(*) Read information in image header
-() Complete the implementation of the data structs
-() Read raw image data
+- [x] Read information in image header
+- [ ] Complete the implementation of the data structs
+- [ ] Read raw image data
