@@ -1,0 +1,170 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SharpIcon\SharpIconLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TESTDATA-DONOTCOMMIT\Account.contrast-black.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Account.contrast-white.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Account.theme-dark.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Account.theme-light.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\AppAndBrowser.contrast-black.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\AppAndBrowser.contrast-white.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\AppAndBrowser.theme-dark.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\AppAndBrowser.theme-light.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\AspNetCoreModule.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\AspNetCoreModule2.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\bing.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Device.contrast-black.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Device.contrast-white.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Device.theme-dark.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Device.theme-light.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Family.contrast-black.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Family.contrast-white.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Family.theme-dark.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Family.theme-light.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\folder.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\folder2.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Health.contrast-black.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Health.contrast-white.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Health.theme-dark.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Health.theme-light.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\icon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\icon2.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\logo.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\netfol.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Network.contrast-black.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Network.contrast-white.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Network.theme-dark.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Network.theme-light.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\OneDrive.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\pictures.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\print_pref.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\print_property.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\print_queue.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\ringtones.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\scan_.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\scan_property.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\scan_settings.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\settings.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\sync.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Threat.contrast-black.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Threat.contrast-white.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Threat.theme-dark.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Threat.theme-light.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Threat.theme-light2.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\wmp.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TESTDATA-DONOTCOMMIT\Xamarin.Simulator.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
